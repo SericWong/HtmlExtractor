@@ -64,7 +64,7 @@
     HtmlExtractor htmlExtractor = new DefaultHtmlExtractor(extractRegular);
     
     //4、抽取网页
-    String url = "http://money.163.com/08/2025-10-06THR2TMP002533QK.html";
+    String url = "http://money.163.com/08/2025-10-07THR2TMP002533QK.html";
     HtmlFetcher htmlFetcher = new JSoupHtmlFetcher();
     String html = htmlFetcher.fetch(url);
     List<ExtractResult> extractResults = htmlExtractor.extract(url, html);
@@ -120,7 +120,7 @@
     HtmlExtractor htmlExtractor = new DefaultHtmlExtractor(extractRegular);
 
     3、抽取信息，示例代码如下：
-    String url = "http://money.163.com/08/2025-10-06THR2TMP002533QK.html";
+    String url = "http://money.163.com/08/2025-10-07THR2TMP002533QK.html";
     HtmlFetcher htmlFetcher = new JSoupHtmlFetcher();
     String html = htmlFetcher.fetch(url);
     List<ExtractResult> extractResults = htmlExtractor.extract(url, html);
